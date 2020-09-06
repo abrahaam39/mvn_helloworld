@@ -3,9 +3,8 @@
   <groupId>com.xavki</groupId>
   <artifactId>helloworld-app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <build>
-    <finalName>helloworld-app</finalName>
-  </build>  
+ 
+
 
   <name>HelloWorld Project</name>
   <url>http://www.xavki.com</url>
@@ -25,6 +24,7 @@
   </dependencies>
 
   <build>
+      <finalName>helloworld-app</finalName>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
