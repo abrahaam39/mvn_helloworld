@@ -3,7 +3,9 @@
   <groupId>com.xavki</groupId>
   <artifactId>helloworld-app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <build>
+    <finalName>helloworld-app</finalName>
+  </build>  
 
   <name>HelloWorld Project</name>
   <url>http://www.xavki.com</url>
